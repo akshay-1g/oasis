@@ -1,0 +1,122 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 75vw; 
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 40vh;
+    box-shadow: 2px 4px 10px 1px rgba(214, 108, 108, 0.47);
+    background-color: black;
+    color: white;
+    z-index: 1;
+}
+
+.info {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    margin-left: 35px;
+}
+
+.photo img{
+    flex: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.field {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.about {
+    position: absolute;
+    top: 30vh;
+    padding: 0px 30px;
+    padding-top: 30vh;
+    background-color: white;
+    box-shadow: 2px 4px 10px 1px rgba(124, 124, 124, 0.47);
+    width: 100%;
+    flex-direction: column;
+    max-width: 85vw;
+    display: flex;
+    gap: 60px;
+}
+
+.fields {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 30px;
+}
+
+.achive {
+    flex: 1;
+    padding: 20px;
+}
+
+.img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.carrer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.item1 {
+    width: 33.33%;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 4px 10px 1px rgba(7, 0, 0, 0.942);
+}
+
+.item2 {
+    width: 33.33%;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 4px 10px 1px rgba(63, 58, 58, 0.47);
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h1{
+    margin-left: 15px;
+}
+
+.fact {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    color: rgb(193, 51, 51);
+}
+
+.items ul li {
+    padding: 5px;
+}
